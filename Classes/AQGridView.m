@@ -88,7 +88,7 @@ NSString * const AQGridViewSelectionDidChangeNotification = @"AQGridViewSelectio
 
 @interface AQGridView ()
 @property (nonatomic, copy) NSIndexSet * animatingIndices;
-- (void) cellUpdateAnimationStopped: (NSString *) animationID finished: (BOOL) finished context: (void *) context;
+//- (void) cellUpdateAnimationStopped: (NSString *) animationID finished: (BOOL) finished context: (void *) context;
 - (void) handleGridViewBoundsChanged: (CGRect) oldBounds toNewBounds: (CGRect) bounds;
 @end
 
